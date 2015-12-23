@@ -6,4 +6,4 @@ MAINTAINER hwj4477@gmail.com
 RUN apt-get install -y mongodb
 
 # setting db path
-RUN /bin/bash -l -c "mkdir -d /data/db"
+RUN /bin/bash -l -c "mkdir -p /data/db"
